@@ -17,3 +17,9 @@ def Multiplication(a,b):
 def Division(a,b):
     Answer = a/b
     return Answer
+
+#Square roots
+def SquareRooting(a,b):
+    Answer = a**b
+    return Answer
+
