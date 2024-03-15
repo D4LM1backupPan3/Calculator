@@ -5,7 +5,7 @@ def Addition(a,b):
 
 #Subtraction
 def Subtraction(a,b):
-    Answer = a + b
+    Answer = a - b
     return Answer
 
 #Multiplication
