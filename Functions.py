@@ -18,8 +18,9 @@ def Division(a,b):
     Answer = a/b
     return Answer
 
-#Square roots
+#Exponent
 def SquareRooting(a,b):
     Answer = a**b
     return Answer
 
+# 

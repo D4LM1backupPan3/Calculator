@@ -1,5 +1,6 @@
 #Info
-LastDateUpdated = 3/14/2024
+LastDateUpdated = "3/16/2024"
+Dev = "D4LM"
 import Functions
 
 while True:
@@ -7,7 +8,10 @@ while True:
         FirstAnswer = input("What operation do you want to use?")
         if FirstAnswer == "exit":
             print("Exiting")
-            exit()
+            exit() #Don't put any code for any reason unless it is suppose to tell of a problem.
+        if FirstAnswer == "info":
+            print("Developer: " + Dev)
+            print("Last date updated: " + LastDateUpdated)
         if FirstAnswer == "+":
             print("Addition mode")
             y = int(input("What is the first number?"))
@@ -32,5 +36,11 @@ while True:
             z = int(input("What is the second number?"))
             SecondAnswer = str(Functions.Division(y,z))
             print(str(y) + "/" + str(z) + "=" + SecondAnswer)
+        if FirstAnswer == "^":
+            print("Exponent mode")
+            y = int(input("What is the first number?"))
+            z = int(input("What is the second number?"))
+            SecondAnswer = str(Functions.SquareRooting(y,z))
+            print(str(y) + "^" + str(z) + "=" + SecondAnswer)
     WhatOperation()
             
