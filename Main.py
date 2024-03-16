@@ -40,7 +40,13 @@ while True:
             print("Exponent mode")
             y = int(input("What is the first number?"))
             z = int(input("What is the second number?"))
-            SecondAnswer = str(Functions.SquareRooting(y,z))
+            SecondAnswer = str(Functions.Exponent(y,z))
             print(str(y) + "^" + str(z) + "=" + SecondAnswer)
+        if FirstAnswer == "root":
+            print("Root mode")
+            y = int(input("What is the first number?"))
+            z = int(input("What is the second number?"))
+            SecondAnswer = str(Functions.Roots(y,z))
+            print(SecondAnswer)
     WhatOperation()
             
