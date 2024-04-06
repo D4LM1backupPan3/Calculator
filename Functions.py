@@ -1,6 +1,6 @@
 #Addition
 def Addition(a,b):
-    Answer = a + b
+    Answer = a+b
     return Answer
 
 #Subtraction
@@ -31,4 +31,13 @@ def Roots(a,b):
     if a < 0:
         Answer = -(-a)**(1/b)
         return Answer
-print(Roots(4,2))
+
+#Percent to decimal converter
+def PercentToDecimal(a):
+    Answer = a / 100
+    return Answer
+
+#Decimal to percent converter
+def DecimalToPercent(a):
+    Answer = a * 100
+    return Answer
